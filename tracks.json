@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Ne me quitte pas",
+    "artist": "Jacques Brel",
+    "src": "tracks/Jacques Brel - Ne me quitte pas.mp3",
+    "cover": "tracks/nemequittepass.jpg"
+  },
+ {
+    "title": "Petite Marie",
+    "artist": "Francis Cabrel",
+    "src": "tracks/Françis Cabrel - Petite Marie - Version Originale.mp3",
+    "cover": "tracks/petitemarie.jpg"
+  },
+  {
+    "title": "La ciruela",
+    "artist": "Nico Play",
+    "src": "tracks/Nico Play - La Ciruela (Official Audio)",
+    "cover": "tracks/laciruela.jpg"
+  },
+    {
+    "title": "Me Olvide De Vivir",
+    "artist": "Julio Iglesias ",
+    "src": "tracks/Julio Iglesias - Me Olvide De Vivir",
+    "cover": "tracks/julio.jpg"
+  }
+]
