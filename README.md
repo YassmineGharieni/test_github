@@ -27,5 +27,10 @@ méthodes et nouveautés :
 -design avec effet de flou et dégradé (glassmorphism)
 
     (honete)difficultés rencontrées
-    -lecture de fichiers ".mp3" sur ubuntu (car pour le moment j'utilisais minux sur ma machine ...)
-    -gestion de la synchronisation entre la lecture el la selection du morceau
+    Pourquoi il faut utiliser un serveur local
+
+        Quand on ouvre le fichier index.html directement avec file:///, le navigateur bloque le chargement de tracks.json et des fichiers audio pour des raisons de sécurité (Same-Origin Policy).
+        Du coup, la playlist ne peut pas être lue et le lecteur affiche “Erreur de chargement”.
+
+      Pour que le lecteur fonctionne, il faut lancer le projet via un serveur local, par exemple avec Live Server dans VSCode ou avec :
+      python3 -m http.server
